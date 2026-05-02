@@ -50,6 +50,7 @@ export default function ContactPage() {
             videoSrc="https://assets.mixkit.co/videos/preview/mixkit-junk-removal-service-truck-12345-large.mp4"
             videoAriaLabel="Junk removal service truck"
             logoText="Rayo Junk Removal"
+            videoSrc="https://assets.mixkit.co/videos/preview/mixkit-trash-container-in-an-alley-44673-large.mp4"
             columns={[
               { title: "Links", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
             ]}

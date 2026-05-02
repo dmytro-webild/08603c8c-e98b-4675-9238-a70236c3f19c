@@ -24,6 +24,7 @@ export default function ContactPage() {
         <div id="nav" data-section="nav">
           <NavbarStyleApple
             navItems={[
+              { name: "Home", id: "/" },
               { name: "Services", id: "/services" },
               { name: "Reviews", id: "/reviews" },
               { name: "About", id: "/about" },
@@ -42,9 +43,11 @@ export default function ContactPage() {
         </div>
         <div id="footer" data-section="footer">
           <FooterMedia
+            videoSrc="https://assets.mixkit.co/videos/preview/mixkit-junk-removal-service-truck-12345-large.mp4"
+            videoAriaLabel="Junk removal service truck"
             logoText="Rayo Junk Removal"
             columns={[
-              { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
+              { title: "Links", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
             ]}
           />
         </div>

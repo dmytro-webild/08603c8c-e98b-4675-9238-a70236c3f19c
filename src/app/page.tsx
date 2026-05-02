@@ -9,7 +9,6 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import { ShieldCheck } from "lucide-react";
@@ -36,8 +35,6 @@ export default function LandingPage() {
           name: "Services",          id: "services"},
         {
           name: "Testimonials",          id: "testimonials"},
-        {
-          name: "Pricing",          id: "pricing"},
         {
           name: "Contact",          id: "contact"},
       ]}
@@ -156,42 +153,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="pricing" data-section="pricing">
-      <PricingCardEight
-      animationType="slide-up"
-      textboxLayout="split"
-      useInvertedBackground={true}
-      plans={[
-        {
-          id: "base",          badge: "Essential",          price: "$199+",          subtitle: "Perfect for single items or small loads.",          features: [
-            "Same-Day Service",            "Fully Insured",            "Transparent Pricing"],
-          buttons: [
-            {
-              text: "Book Now",              href: "#contact"},
-          ],
-        },
-        {
-          id: "pro",          badge: "Most Popular",          price: "$399+",          subtitle: "Great for garage or room cleanouts.",          features: [
-            "Same-Day Service",            "Priority Scheduling",            "Heavy Lifting",            "Disposal Fees Included"],
-          buttons: [
-            {
-              text: "Book Now",              href: "#contact"},
-          ],
-        },
-        {
-          id: "max",          badge: "Ultimate",          price: "$799+",          subtitle: "For entire property cleanouts.",          features: [
-            "Complete House Cleanout",            "Zero Hassle",            "Same-Day Delivery"],
-          buttons: [
-            {
-              text: "Book Now",              href: "#contact"},
-          ],
-        },
-      ]}
-      title="Transparent, Fair Pricing"
-      description="We offer clear, competitive rates with no hidden fees. Luxury service doesn't have to mean luxury costs."
-    />
-  </div>
-
   <div id="metrics" data-section="metrics">
       <MetricCardTwo
       animationType="slide-up"
@@ -268,8 +229,6 @@ export default function LandingPage() {
               label: "About Us",              href: "#about"},
             {
               label: "Testimonials",              href: "#testimonials"},
-            {
-              label: "Pricing",              href: "#pricing"},
           ],
         },
         {

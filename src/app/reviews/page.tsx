@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
-import FooterMedia from '@/components/sections/footer/FooterMedia';
+import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
 
 export default function ReviewsPage() {
   return (
@@ -48,9 +48,7 @@ export default function ReviewsPage() {
           />
         </div>
         <div id="footer" data-section="footer">
-          <FooterMedia
-            videoSrc="https://www.youtube.com/embed/dQw4w9WgXcQ?_wi=2"
-            videoAriaLabel="Promotional video for Rayo Junk Removal"
+          <FooterLogoEmphasis
             logoText="Rayo Junk Removal"
             columns={[
               { items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }

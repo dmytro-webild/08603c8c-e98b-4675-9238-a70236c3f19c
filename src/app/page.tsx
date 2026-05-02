@@ -67,7 +67,7 @@ export default function LandingPage() {
       ]}
       buttons={[
         {
-          text: "Book Now",          href: "tel:+16614352054"},
+          text: "Book Now",          onClick: () => { window.location.href = "tel:+16614352054"; }},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=2"
       imageAlt="professional junk removal service cinematic"

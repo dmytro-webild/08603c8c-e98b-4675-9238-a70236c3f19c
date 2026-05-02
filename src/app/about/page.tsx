@@ -40,14 +40,14 @@ export default function AboutPage() {
             description="Founded on the principles of speed, integrity, and white-glove service."
             subdescription="We've dedicated ourselves to helping our community reclaim their spaces one haul at a time."
             icon={ShieldCheck}
-            imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=1"
             useInvertedBackground={false}
           />
         </div>
         <div id="footer" data-section="footer">
           <FooterMedia
             logoText="Rayo Junk Removal"
-            imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg"
+            imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=2"
             columns={[
               {
                 title: "Company",                items: [

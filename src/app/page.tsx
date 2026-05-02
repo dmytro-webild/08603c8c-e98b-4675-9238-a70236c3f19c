@@ -111,7 +111,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       tag="Trusted Professional"
       title="Why Rayo Junk Removal?"
-      description="We are not just a hauling service; we are your local luxury solution for reclaiming your space. From hot tubs to whole house cleanouts, our crew brings good vibes, speed, and integrity to every project."
+      description="We are not just a hauling service; we are your local luxury solution for reclaiming your space. From hot tubs to whole house cleanouts, we bring good vibes, speed, and integrity to every project."
       subdescription="Our owner-led approach ensures direct accountability and white-glove care that the big national chains simply cannot match."
       icon={ShieldCheck}
       imageSrc="http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=2"
@@ -142,13 +142,13 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "1",          name: "James K.",          date: "Jan 2025",          title: "Lifesaver!",          quote: "Pepper and the crew were absolute lifesavers. Professional, polite, and incredibly fast.",          tag: "Highly Recommended",          avatarSrc: "http://img.b2bpic.net/free-photo/very-good-smiling-brunette-woman-shows-ok-okay-hand-sign-looking-satisfied-recommend-great-deal-pleased-with-quality-standing-white-background_176420-46695.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=3",          imageAlt: "happy client portrait professional headshot"},
+          id: "1",          name: "James K.",          date: "Jan 2025",          title: "Lifesaver!",          quote: "The service was absolutely lifesaver. Professional, polite, and incredibly fast.",          tag: "Highly Recommended",          avatarSrc: "http://img.b2bpic.net/free-photo/very-good-smiling-brunette-woman-shows-ok-okay-hand-sign-looking-satisfied-recommend-great-deal-pleased-with-quality-standing-white-background_176420-46695.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=3",          imageAlt: "happy client portrait professional headshot"},
         {
           id: "2",          name: "Elena V.",          date: "Dec 2024",          title: "Luxury Service",          quote: "They showed up within minutes and worked with my budget perfectly. Highly recommend.",          tag: "Top Tier",          avatarSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-business-woman_23-2148603029.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=3",          imageAlt: "happy client portrait professional headshot"},
         {
           id: "3",          name: "Marcus D.",          date: "Nov 2024",          title: "Better Pricing",          quote: "Undercut every competitor in town and delivered the best service I've ever had.",          tag: "Best Value",          avatarSrc: "http://img.b2bpic.net/free-photo/person-presenting-their-job-resignation_23-2149445179.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-working-service_23-2150171264.jpg?_wi=3",          imageAlt: "happy client portrait professional headshot"},
         {
-          id: "4",          name: "Susan P.",          date: "Oct 2024",          title: "Good Vibes",          quote: "Good vibes and great service. The team made a difficult job look simple and easy.",          tag: "Excellent",          avatarSrc: "http://img.b2bpic.net/free-photo/man-winking-thumb-up_1187-3210.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/cute-cat-sitting-rubbish-bin-outdoors_23-2148666769.jpg?_wi=3",          imageAlt: "happy client portrait professional headshot"},
+          id: "4",          name: "Susan P.",          date: "Oct 2024",          title: "Good Vibes",          quote: "Good vibes and great service. The team made a difficult job look simple and easy.",          tag: "Excellent",          avatarSrc: "http://img.b2bpic.net/man-winking-thumb-up_1187-3210.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/cute-cat-sitting-rubbish-bin-outdoors_23-2148666769.jpg?_wi=3",          imageAlt: "happy client portrait professional headshot"},
         {
           id: "5",          name: "David W.",          date: "Sep 2024",          title: "Reliable",          quote: "Consistent communication and fast service. Will definitely be using them again.",          tag: "Very Reliable",          avatarSrc: "http://img.b2bpic.net/free-photo/closeup-shot-handsome-male-smiling_181624-41237.jpg",          imageSrc: "http://img.b2bpic.net/free-photo/crop-woman-packing-boxes_23-2147758886.jpg?_wi=3",          imageAlt: "happy client portrait professional headshot"},
       ]}
@@ -165,7 +165,7 @@ export default function LandingPage() {
       plans={[
         {
           id: "base",          badge: "Essential",          price: "$199+",          subtitle: "Perfect for single items or small loads.",          features: [
-            "Same-Day Service",            "Polite Crew",            "Fully Insured",            "Transparent Pricing"],
+            "Same-Day Service",            "Fully Insured",            "Transparent Pricing"],
           buttons: [
             {
               text: "Book Now",              href: "#contact"},
@@ -181,7 +181,7 @@ export default function LandingPage() {
         },
         {
           id: "max",          badge: "Ultimate",          price: "$799+",          subtitle: "For entire property cleanouts.",          features: [
-            "Complete House Cleanout",            "Priority Crew",            "Zero Hassle",            "Same-Day Delivery"],
+            "Complete House Cleanout",            "Zero Hassle",            "Same-Day Delivery"],
           buttons: [
             {
               text: "Book Now",              href: "#contact"},
@@ -205,11 +205,11 @@ export default function LandingPage() {
         {
           id: "t2",          name: "Sarah",          role: "Logistics",          description: "Ensuring your scheduling and response times are always prompt.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-middle-aged-attractive-woman-showing-thumb-up-outdoors_1262-12526.jpg"},
         {
-          id: "t3",          name: "Mike",          role: "Operations",          description: "Expert in heavy removal and safety-first cleanup projects.",          imageSrc: "http://img.b2bpic.net/free-photo/couple-with-cardboard-boxes-their-new-home_23-2149086868.jpg"},
+          id: "t3",          name: "Mike",          role: "Operations",          description: "Expert in heavy removal and safety-first cleanup projects.",          imageSrc: "http://img.b2bpic.net/couple-with-cardboard-boxes-their-new-home_23-2149086868.jpg"},
         {
-          id: "t4",          name: "Alex",          role: "Field Specialist",          description: "Friendly faces and hardworking crew ready to help.",          imageSrc: "http://img.b2bpic.net/free-photo/confident-successful-middle-aged-business-leader_1262-4872.jpg"},
+          id: "t4",          name: "Alex",          role: "Field Specialist",          description: "Friendly faces and hardworking staff ready to help.",          imageSrc: "http://img.b2bpic.net/free-photo/confident-successful-middle-aged-business-leader_1262-4872.jpg"},
       ]}
-      title="Our Crew"
+      title="Our Team"
       description="Local, experienced, and dedicated to providing you the best service in the industry."
     />
   </div>
@@ -244,7 +244,7 @@ export default function LandingPage() {
         {
           id: "f2",          title: "How is pricing determined?",          content: "Pricing is based on volume, weight, and ease of access to your items."},
         {
-          id: "f3",          title: "Are you fully insured?",          content: "Yes, our team and your property are fully protected with comprehensive liability insurance."},
+          id: "f3",          title: "Are you fully insured?",          content: "Yes, our operations and your property are fully protected with comprehensive liability insurance."},
         {
           id: "f4",          title: "Do you take hazardous materials?",          content: "We handle general junk removal; please check our list of prohibited items for specifics."},
       ]}
@@ -259,7 +259,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{
         variant: "sparkles-gradient"}}
-      text="Ready to reclaim your space? Get a free no-obligation quote and book today for the fastest, most reliable junk removal service in town."
+      text="Ready to reclaim your space? Contact us today for a free no-obligation quote and the fastest, most reliable junk removal service in town. Follow us on TikTok for our latest jobs: https://www.tiktok.com/@rayojunkremoval"
       buttons={[
         {
           text: "Call Now",          href: "tel:5550123456"},

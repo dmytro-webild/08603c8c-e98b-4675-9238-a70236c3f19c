@@ -3,13 +3,10 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import ContactText from '@/components/sections/contact/ContactText';
-import FaqSplitText from '@/components/sections/faq/FaqSplitText';
-import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import { ShieldCheck } from "lucide-react";
 
 export default function LandingPage() {

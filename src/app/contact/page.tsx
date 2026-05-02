@@ -36,8 +36,12 @@ export default function ContactPage() {
         <div id="contact" data-section="contact">
           <ContactText
             background={{ variant: "sparkles-gradient" }}
-            text="Call us at +16614352054 to schedule your removal service today."
-            buttons={[{ text: "Call Now", href: "tel:+16614352054" }]}
+            text="Rayo Junk Removal Contact Information"
+            buttons={[
+                { text: "Call Now", href: "tel:+16614352054" },
+                { text: "Location", href: "https://www.google.com/maps/search/Rayo+Junk+Removal" },
+                { text: "TikTok", href: "https://www.tiktok.com/@rayojunkremoval" }
+            ]}
             useInvertedBackground={false}
           />
         </div>

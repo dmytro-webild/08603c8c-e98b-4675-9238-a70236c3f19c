@@ -10,7 +10,6 @@ import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonia
 import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
-import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import { ShieldCheck } from "lucide-react";
@@ -190,27 +189,6 @@ export default function LandingPage() {
       ]}
       title="Transparent, Fair Pricing"
       description="We offer clear, competitive rates with no hidden fees. Luxury service doesn't have to mean luxury costs."
-    />
-  </div>
-
-  <div id="team" data-section="team">
-      <TeamCardTwo
-      animationType="slide-up"
-      textboxLayout="split"
-      gridVariant="uniform-all-items-equal"
-      useInvertedBackground={false}
-      members={[
-        {
-          id: "t1",          name: "Pepper",          role: "Owner/Lead",          description: "Founding member dedicated to 5-star service every single day.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-female-staff-airport-terminal_107420-85049.jpg"},
-        {
-          id: "t2",          name: "Sarah",          role: "Logistics",          description: "Ensuring your scheduling and response times are always prompt.",          imageSrc: "http://img.b2bpic.net/free-photo/smiling-middle-aged-attractive-woman-showing-thumb-up-outdoors_1262-12526.jpg"},
-        {
-          id: "t3",          name: "Mike",          role: "Operations",          description: "Expert in heavy removal and safety-first cleanup projects.",          imageSrc: "http://img.b2bpic.net/couple-with-cardboard-boxes-their-new-home_23-2149086868.jpg"},
-        {
-          id: "t4",          name: "Alex",          role: "Field Specialist",          description: "Friendly faces and hardworking staff ready to help.",          imageSrc: "http://img.b2bpic.net/free-photo/confident-successful-middle-aged-business-leader_1262-4872.jpg"},
-      ]}
-      title="Our Team"
-      description="Local, experienced, and dedicated to providing you the best service in the industry."
     />
   </div>
 

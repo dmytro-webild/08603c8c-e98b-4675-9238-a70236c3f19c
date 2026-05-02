@@ -77,6 +77,7 @@ export default function LandingPage() {
       useInvertedBackground={true}
       background={{ variant: "sparkles-gradient" }}
       text="Ready to reclaim your space? Contact us today for a free quote."
+      buttons={[{ text: "Contact", href: "/contact" }]}
     />
   </div>
 

@@ -36,9 +36,13 @@ export default function ReviewsPage() {
           <TestimonialCardFive
             textboxLayout="default"
             useInvertedBackground={false}
-            testimonials={[]}
             title="What Our Clients Say"
             description="Five-star customer satisfaction is the standard at Rayo Junk."
+            testimonials={[
+              { id: "1", name: "Sarah J.", role: "Homeowner", company: "Local Customer", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=1" },
+              { id: "2", name: "Michael R.", role: "Business Owner", company: "Local Business", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=1" },
+              { id: "3", name: "Jessica L.", role: "Estate Manager", company: "Local Community", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-man-with-scary-clown-make-up-balloons_23-2150915403.jpg?_wi=1" }
+            ]}
           />
         </div>
         <div id="footer" data-section="footer">

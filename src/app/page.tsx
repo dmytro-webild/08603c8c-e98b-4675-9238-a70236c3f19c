@@ -30,7 +30,6 @@ export default function LandingPage() {
         { name: "Services", id: "/services" },
         { name: "Reviews", id: "/reviews" },
         { name: "About", id: "/about" },
-        { name: "Contact", id: "/contact" },
       ]}
       brandName="Rayo Junk"
     />
@@ -39,7 +38,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitTestimonial
       background={{ variant: "radial-gradient" }}
-      title="Luxury-Level Service. Junk Removal Done Right."
+      title="Reclaim Your Space Today with Professional Junk Removal"
       description="Fast. Professional. Fair-Priced. Rayo Junk Removal delivers white-glove junk hauling, demolition, cleanouts, and same-day service with unmatched customer care."
       testimonials={[
         {
@@ -49,7 +48,7 @@ export default function LandingPage() {
           name: "Michael R.", handle: "@miker", testimonial: "Rayo Junk undercuts every competitor in price while delivering superior luxury-level service.", rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=1", imageAlt: "professional junk removal service cinematic"},
       ]}
-      buttons={[{ text: "Book Now", onClick: () => { window.location.href = "tel:+16614352054"; } }]}
+      buttons={[{ text: "Get a Free Estimate", onClick: () => { window.location.href = "tel:+16614352054"; } }]}
       imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=2"
       imageAlt="professional junk removal service cinematic"
       mediaAnimation="slide-up"
@@ -64,7 +63,7 @@ export default function LandingPage() {
       description="We are not just a hauling service; we are your local luxury solution for reclaiming your space. From hot tubs to whole house cleanouts, we bring good vibes, speed, and integrity to every project."
       subdescription="Our owner-led approach ensures direct accountability and white-glove care that the big national chains simply cannot match."
       icon={ShieldCheck}
-      imageSrc="http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=2"
+      imageSrc="http://img.b2bpic.net/free-photo/modern-office-interior-with-clean-desks_1154-81.jpg?_wi=2"
       mediaAnimation="blur-reveal"
     />
   </div>

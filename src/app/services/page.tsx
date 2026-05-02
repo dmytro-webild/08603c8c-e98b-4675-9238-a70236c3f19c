@@ -46,7 +46,7 @@ export default function ServicesPage() {
         </div>
         <div id="footer" data-section="footer">
           <FooterMedia
-            videoSrc="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            videoSrc="https://www.youtube.com/embed/dQw4w9WgXcQ?_wi=1"
             videoAriaLabel="Promotional video for Rayo Junk Removal"
             logoText="Rayo Junk Removal"
             columns={[

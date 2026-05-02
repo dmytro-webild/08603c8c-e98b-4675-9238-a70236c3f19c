@@ -43,7 +43,7 @@ export default function ReviewsPage() {
         </div>
         <div id="footer" data-section="footer">
           <FooterMedia
-            videoSrc="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            videoSrc="https://www.youtube.com/embed/dQw4w9WgXcQ?_wi=2"
             videoAriaLabel="Promotional video for Rayo Junk Removal"
             logoText="Rayo Junk Removal"
             columns={[

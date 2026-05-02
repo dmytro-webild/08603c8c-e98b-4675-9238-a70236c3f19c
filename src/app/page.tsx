@@ -7,7 +7,6 @@ import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import FeatureCardEight from '@/components/sections/feature/FeatureCardEight';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
-import MetricCardTwo from '@/components/sections/metrics/MetricCardTwo';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
@@ -31,10 +30,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarStyleApple
       navItems={[
-        { name: "Services", id: "services" },
-        { name: "Testimonials", id: "testimonials" },
+        { name: "Services", id: "/services" },
+        { name: "Reviews", id: "/reviews" },
         { name: "About", id: "/about" },
-        { name: "Contact", id: "contact" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Rayo Junk"
     />
@@ -73,39 +72,6 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="services" data-section="services">
-      <FeatureCardEight
-      textboxLayout="split"
-      useInvertedBackground={true}
-      features={[
-        { title: "Whole House Cleanouts", description: "Complete removal of unwanted items for estate sales or moves.", imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-working-service_23-2150171264.jpg?_wi=2" },
-        { title: "Hot Tub & Spa Removal", description: "Specialized equipment for safe, efficient removal of large spas.", imageSrc: "http://img.b2bpic.net/free-photo/cute-cat-sitting-rubbish-bin-outdoors_23-2148666769.jpg?_wi=2" },
-      ]}
-      title="Our Premium Services"
-      description="We handle the heavy lifting so you don't have to."
-    />
-  </div>
-
-  <div id="testimonials" data-section="testimonials">
-      <TestimonialCardFive
-      textboxLayout="default"
-      useInvertedBackground={false}
-      testimonials={[]}
-      title="What Our Clients Say"
-      description="Five-star customer satisfaction is the standard at Rayo Junk."
-    />
-  </div>
-
-  <div id="faq" data-section="faq">
-      <FaqSplitText
-      useInvertedBackground={false}
-      faqs={[]}
-      sideTitle="Common Questions"
-      sideDescription="Everything you need to know."
-      faqsAnimation="slide-up"
-    />
-  </div>
-
   <div id="contact" data-section="contact">
       <ContactText
       useInvertedBackground={true}
@@ -118,7 +84,9 @@ export default function LandingPage() {
       <FooterMedia
       imageSrc="http://img.b2bpic.net/free-photo/portrait-man-with-scary-clown-make-up-balloons_23-2150915403.jpg"
       logoText="Rayo Junk Removal"
-      columns={[]}
+      columns={[
+          { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
+      ]}
     />
   </div>
       </ReactLenis>

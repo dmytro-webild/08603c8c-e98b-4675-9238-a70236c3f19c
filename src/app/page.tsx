@@ -67,7 +67,7 @@ export default function LandingPage() {
           handle: "@sarahj",
           testimonial: "The best junk removal experience ever. They were lightning fast and incredibly professional.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=1",
           imageAlt: "professional junk removal service cinematic",
         },
         {
@@ -75,7 +75,7 @@ export default function LandingPage() {
           handle: "@miker",
           testimonial: "Rayo Junk undercuts every competitor in price while delivering superior luxury-level service.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=1",
           imageAlt: "professional junk removal service cinematic",
         },
         {
@@ -83,7 +83,7 @@ export default function LandingPage() {
           handle: "@jamesl",
           testimonial: "Incredible communication and truly white-glove service. My garage has never looked better.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-working-service_23-2150171264.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-working-service_23-2150171264.jpg?_wi=1",
           imageAlt: "professional junk removal service cinematic",
         },
         {
@@ -91,7 +91,7 @@ export default function LandingPage() {
           handle: "@lindam",
           testimonial: "They arrived early, worked efficiently, and left the space spotless. Highly recommended.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/cute-cat-sitting-rubbish-bin-outdoors_23-2148666769.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cute-cat-sitting-rubbish-bin-outdoors_23-2148666769.jpg?_wi=1",
           imageAlt: "professional junk removal service cinematic",
         },
         {
@@ -99,7 +99,7 @@ export default function LandingPage() {
           handle: "@robertt",
           testimonial: "Efficient, fair pricing, and very friendly. The easiest junk removal service I've booked.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/crop-woman-packing-boxes_23-2147758886.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/crop-woman-packing-boxes_23-2147758886.jpg?_wi=1",
           imageAlt: "professional junk removal service cinematic",
         },
       ]}
@@ -113,7 +113,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=2"
       imageAlt="professional junk removal service cinematic"
       mediaAnimation="slide-up"
       avatars={[
@@ -172,7 +172,7 @@ export default function LandingPage() {
       description="We are not just a hauling service; we are your local luxury solution for reclaiming your space. From hot tubs to whole house cleanouts, our crew brings good vibes, speed, and integrity to every project."
       subdescription="Our owner-led approach ensures direct accountability and white-glove care that the big national chains simply cannot match."
       icon={ShieldCheck}
-      imageSrc="http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=2"
       mediaAnimation="blur-reveal"
     />
   </div>
@@ -185,17 +185,17 @@ export default function LandingPage() {
         {
           title: "Whole House Cleanouts",
           description: "Complete removal of unwanted items for estate sales or moves.",
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-working-service_23-2150171264.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-working-service_23-2150171264.jpg?_wi=2",
         },
         {
           title: "Hot Tub & Spa Removal",
           description: "Specialized equipment for safe, efficient removal of large spas.",
-          imageSrc: "http://img.b2bpic.net/free-photo/cute-cat-sitting-rubbish-bin-outdoors_23-2148666769.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cute-cat-sitting-rubbish-bin-outdoors_23-2148666769.jpg?_wi=2",
         },
         {
           title: "Furniture & Appliance",
           description: "White-glove removal of heavy electronics, couches, and appliances.",
-          imageSrc: "http://img.b2bpic.net/free-photo/crop-woman-packing-boxes_23-2147758886.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/crop-woman-packing-boxes_23-2147758886.jpg?_wi=2",
         },
       ]}
       title="Our Premium Services"
@@ -216,7 +216,7 @@ export default function LandingPage() {
           quote: "Pepper and the crew were absolute lifesavers. Professional, polite, and incredibly fast.",
           tag: "Highly Recommended",
           avatarSrc: "http://img.b2bpic.net/free-photo/very-good-smiling-brunette-woman-shows-ok-okay-hand-sign-looking-satisfied-recommend-great-deal-pleased-with-quality-standing-white-background_176420-46695.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=3",
           imageAlt: "happy client portrait professional headshot",
         },
         {
@@ -227,7 +227,7 @@ export default function LandingPage() {
           quote: "They showed up within minutes and worked with my budget perfectly. Highly recommend.",
           tag: "Top Tier",
           avatarSrc: "http://img.b2bpic.net/free-photo/portrait-smiley-business-woman_23-2148603029.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=3",
           imageAlt: "happy client portrait professional headshot",
         },
         {
@@ -238,7 +238,7 @@ export default function LandingPage() {
           quote: "Undercut every competitor in town and delivered the best service I've ever had.",
           tag: "Best Value",
           avatarSrc: "http://img.b2bpic.net/free-photo/person-presenting-their-job-resignation_23-2149445179.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-working-service_23-2150171264.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-working-service_23-2150171264.jpg?_wi=3",
           imageAlt: "happy client portrait professional headshot",
         },
         {
@@ -249,7 +249,7 @@ export default function LandingPage() {
           quote: "Good vibes and great service. The team made a difficult job look simple and easy.",
           tag: "Excellent",
           avatarSrc: "http://img.b2bpic.net/free-photo/man-winking-thumb-up_1187-3210.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/cute-cat-sitting-rubbish-bin-outdoors_23-2148666769.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/cute-cat-sitting-rubbish-bin-outdoors_23-2148666769.jpg?_wi=3",
           imageAlt: "happy client portrait professional headshot",
         },
         {
@@ -260,7 +260,7 @@ export default function LandingPage() {
           quote: "Consistent communication and fast service. Will definitely be using them again.",
           tag: "Very Reliable",
           avatarSrc: "http://img.b2bpic.net/free-photo/closeup-shot-handsome-male-smiling_181624-41237.jpg",
-          imageSrc: "http://img.b2bpic.net/free-photo/crop-woman-packing-boxes_23-2147758886.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/crop-woman-packing-boxes_23-2147758886.jpg?_wi=3",
           imageAlt: "happy client portrait professional headshot",
         },
       ]}

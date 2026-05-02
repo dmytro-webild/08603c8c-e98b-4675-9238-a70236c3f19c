@@ -188,6 +188,10 @@ export default function LandingPage() {
       sideTitle="Common Questions"
       sideDescription="Everything you need to know about our premium service process."
       faqsAnimation="slide-up"
+      buttons={[
+        {
+          text: "Book Now",          onClick: () => { window.location.href = "tel:+16614352054"; }},
+      ]}
     />
   </div>
 

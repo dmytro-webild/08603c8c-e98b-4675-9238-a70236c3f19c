@@ -8,17 +8,17 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function ContactPage() {
   return (
-    <ThemeProvider 
-      defaultButtonVariant="text-stagger" 
-      defaultTextAnimation="entrance-slide" 
-      borderRadius="rounded" 
-      contentWidth="medium" 
-      sizing="medium" 
-      background="circleGradient" 
-      cardStyle="glass-elevated" 
-      primaryButtonStyle="gradient" 
-      secondaryButtonStyle="glass" 
-      headingFontWeight="normal"
+    <ThemeProvider
+        defaultButtonVariant="text-stagger"
+        defaultTextAnimation="entrance-slide"
+        borderRadius="rounded"
+        contentWidth="mediumLarge"
+        sizing="largeSizeMediumTitles"
+        background="noiseDiagonalGradient"
+        cardStyle="glass-depth"
+        primaryButtonStyle="double-inset"
+        secondaryButtonStyle="glass"
+        headingFontWeight="bold"
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
@@ -28,31 +28,26 @@ export default function ContactPage() {
               { name: "Services", id: "/services" },
               { name: "Reviews", id: "/reviews" },
               { name: "About", id: "/about" },
-              { name: "Contact", id: "/contact" },
             ]}
             brandName="Rayo Junk"
           />
         </div>
+
         <div id="contact" data-section="contact">
           <ContactText
+            useInvertedBackground={true}
             background={{ variant: "sparkles-gradient" }}
-            text="Rayo Junk Removal Contact Information"
-            buttons={[
-                { text: "Call Now", href: "tel:+16614352054" },
-                { text: "Location", href: "https://www.google.com/maps/search/Rayo+Junk+Removal" },
-                { text: "TikTok", href: "https://www.tiktok.com/@rayojunkremoval" }
-            ]}
-            useInvertedBackground={false}
+            text="Ready to reclaim your space? Contact us today for a free quote."
+            buttons={[{ text: "Call Now", href: "tel:+16614352054" }]}
           />
         </div>
+
         <div id="footer" data-section="footer">
           <FooterMedia
-            videoSrc="https://assets.mixkit.co/videos/preview/mixkit-junk-removal-service-truck-12345-large.mp4"
-            videoAriaLabel="Junk removal service truck"
+            imageSrc="http://img.b2bpic.net/free-photo/portrait-man-with-scary-clown-make-up-balloons_23-2150915403.jpg"
             logoText="Rayo Junk Removal"
-            videoSrc="https://assets.mixkit.co/videos/preview/mixkit-trash-container-in-an-alley-44673-large.mp4"
             columns={[
-              { title: "Links", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
+              { title: "Links", items: [{ label: "Home", href: "/" }, { label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }] }
             ]}
           />
         </div>

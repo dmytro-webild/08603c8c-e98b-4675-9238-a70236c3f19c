@@ -47,6 +47,7 @@ export default function ContactPage() {
         <div id="footer" data-section="footer">
           <FooterMedia
             logoText="Rayo Junk Removal"
+            videoSrc="https://assets.mixkit.co/videos/preview/mixkit-trash-container-in-an-alley-44673-large.mp4"
             columns={[
               { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
             ]}

@@ -3,23 +3,22 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
+import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
-import { ShieldCheck } from "lucide-react";
 
-export default function AboutPage() {
+export default function ReviewsPage() {
   return (
     <ThemeProvider 
       defaultButtonVariant="text-stagger" 
       defaultTextAnimation="entrance-slide" 
       borderRadius="rounded" 
-      contentWidth="medium" 
-      sizing="medium" 
-      background="circleGradient" 
-      cardStyle="glass-elevated" 
-      primaryButtonStyle="gradient" 
+      contentWidth="mediumLarge" 
+      sizing="largeSizeMediumTitles" 
+      background="noiseDiagonalGradient" 
+      cardStyle="glass-depth" 
+      primaryButtonStyle="double-inset" 
       secondaryButtonStyle="glass" 
-      headingFontWeight="normal"
+      headingFontWeight="bold"
     >
       <ReactLenis root>
         <div id="nav" data-section="nav">
@@ -33,22 +32,18 @@ export default function AboutPage() {
             brandName="Rayo Junk"
           />
         </div>
-        <div id="about" data-section="about">
-          <TestimonialAboutCard
-            tag="About Us"
-            tagIcon={ShieldCheck}
-            title="Our Story"
-            description="Founded on the principles of speed, integrity, and white-glove service."
-            subdescription="We've dedicated ourselves to helping our community reclaim their spaces one haul at a time."
-            icon={ShieldCheck}
-            imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=1"
+        <div id="reviews" data-section="reviews">
+          <TestimonialCardFive
+            textboxLayout="default"
             useInvertedBackground={false}
+            testimonials={[]}
+            title="What Our Clients Say"
+            description="Five-star customer satisfaction is the standard at Rayo Junk."
           />
         </div>
         <div id="footer" data-section="footer">
           <FooterMedia
             logoText="Rayo Junk Removal"
-            imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=2"
             columns={[
               { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
             ]}

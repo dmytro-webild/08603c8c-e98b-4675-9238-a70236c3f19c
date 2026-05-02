@@ -25,7 +25,8 @@ export default function AboutPage() {
         <div id="nav" data-section="nav">
           <NavbarStyleApple
             navItems={[
-              { name: "Home", id: "/" },
+              { name: "Services", id: "/services" },
+              { name: "Reviews", id: "/reviews" },
               { name: "About", id: "/about" },
               { name: "Contact", id: "/contact" },
             ]}
@@ -49,12 +50,7 @@ export default function AboutPage() {
             logoText="Rayo Junk Removal"
             imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=2"
             columns={[
-              {
-                title: "Company",                items: [
-                  { label: "About", href: "/about" },
-                  { label: "Contact", href: "/contact" }
-                ]
-              }
+              { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
             ]}
           />
         </div>

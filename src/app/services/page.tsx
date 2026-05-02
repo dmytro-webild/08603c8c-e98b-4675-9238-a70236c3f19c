@@ -46,6 +46,8 @@ export default function ServicesPage() {
         </div>
         <div id="footer" data-section="footer">
           <FooterMedia
+            videoSrc="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            videoAriaLabel="Promotional video for Rayo Junk Removal"
             logoText="Rayo Junk Removal"
             columns={[
               { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }

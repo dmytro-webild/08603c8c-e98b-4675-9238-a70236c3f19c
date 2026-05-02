@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import TestimonialCardFive from '@/components/sections/testimonial/TestimonialCardFive';
+import TestimonialCardOne from '@/components/sections/testimonial/TestimonialCardOne';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function ReviewsPage() {
@@ -33,11 +33,13 @@ export default function ReviewsPage() {
           />
         </div>
         <div id="reviews" data-section="reviews">
-          <TestimonialCardFive
+          <TestimonialCardOne
             textboxLayout="default"
             useInvertedBackground={false}
             title="What Our Clients Say"
             description="Five-star customer satisfaction is the standard at Rayo Junk."
+            gridVariant="uniform-all-items-equal"
+            animationType="slide-up"
             testimonials={[
               { id: "1", name: "Sarah J.", role: "Homeowner", company: "Local Customer", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=1" },
               { id: "2", name: "Michael R.", role: "Business Owner", company: "Local Business", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=1" },
@@ -51,7 +53,7 @@ export default function ReviewsPage() {
             videoAriaLabel="Promotional video for Rayo Junk Removal"
             logoText="Rayo Junk Removal"
             columns={[
-              { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
+              { items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
             ]}
           />
         </div>

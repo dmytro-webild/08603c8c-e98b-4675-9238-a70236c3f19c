@@ -2,7 +2,6 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -68,21 +67,12 @@ export default function LandingPage() {
     />
   </div>
 
-  <div id="contact" data-section="contact">
-      <ContactText
-      useInvertedBackground={true}
-      background={{ variant: "sparkles-gradient" }}
-      text="Ready to reclaim your space? Contact us today for a free quote."
-      buttons={[{ text: "Contact", href: "/contact" }]}
-    />
-  </div>
-
   <div id="footer" data-section="footer">
       <FooterMedia
       imageSrc="http://img.b2bpic.net/free-photo/portrait-man-with-scary-clown-make-up-balloons_23-2150915403.jpg"
       logoText="Rayo Junk Removal"
       columns={[
-          { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
+          { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }] }
       ]}
     />
   </div>

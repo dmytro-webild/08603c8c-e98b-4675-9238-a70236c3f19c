@@ -3,7 +3,6 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function ContactPage() {
@@ -30,15 +29,6 @@ export default function ContactPage() {
               { name: "About", id: "/about" },
             ]}
             brandName="Rayo Junk"
-          />
-        </div>
-
-        <div id="contact" data-section="contact">
-          <ContactText
-            useInvertedBackground={true}
-            background={{ variant: "sparkles-gradient" }}
-            text="Ready to reclaim your space? Contact us today for a free quote."
-            buttons={[{ text: "Call Now", href: "tel:+16614352054" }]}
           />
         </div>
 

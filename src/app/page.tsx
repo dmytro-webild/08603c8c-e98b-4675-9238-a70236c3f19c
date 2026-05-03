@@ -29,6 +29,7 @@ export default function LandingPage() {
         { name: "Services", id: "/services" },
         { name: "Reviews", id: "/reviews" },
         { name: "About", id: "/about" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Rayo Junk"
     />
@@ -72,7 +73,7 @@ export default function LandingPage() {
       imageSrc="http://img.b2bpic.net/free-photo/portrait-man-with-scary-clown-make-up-balloons_23-2150915403.jpg?_wi=1"
       logoText="Rayo Junk Removal"
       columns={[
-          { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }] }
+          { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
       ]}
     />
   </div>

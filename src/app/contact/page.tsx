@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
+import ContactText from '@/components/sections/contact/ContactText';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 
 export default function ContactPage() {
@@ -34,16 +34,14 @@ export default function ContactPage() {
           />
         </div>
         <div id="contact" data-section="contact">
-          <ContactSplitForm
-            title="Get In Touch"
-            description="Reach out for junk removal, estate cleanouts, or any inquiries."
-            inputs={[
-              { name: "name", type: "text", placeholder: "Your Name" },
-              { name: "email", type: "email", placeholder: "Email Address" }
+          <ContactText
+            text="Reach out to us directly for professional junk removal assistance. We're here to help!"
+            background={{ variant: "plain" }}
+            buttons={[
+              { text: "TikTok Profile", href: "https://tiktok.com/@rayojunk" },
+              { text: "Google Maps", href: "https://maps.google.com" },
+              { text: "Call +16614352054", href: "tel:+16614352054" }
             ]}
-            buttonText="Send Message"
-            imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=1"
-            useInvertedBackground={false}
           />
         </div>
         <div id="footer" data-section="footer">

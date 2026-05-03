@@ -40,7 +40,7 @@ export default function LandingPage() {
       <HeroSplitTestimonial
       title="Reclaim Your Space Today with Professional Junk Removal"
       description="Fast. Professional. Fair-Priced. Rayo Junk Removal delivers white-glove junk hauling, demolition, cleanouts, and same-day service with unmatched customer care."
-      background={{ variant: "plain" }}
+      background={{ variant: "gradient-bars" }}
       testimonials={[
         {
           name: "Sarah J.", handle: "@sarahj", testimonial: "The best junk removal experience ever. They were lightning fast and incredibly professional.", rating: 5,

@@ -7,7 +7,7 @@ import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonia
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
 import FeatureCardTwentyEight from '@/components/sections/feature/FeatureCardTwentyEight';
-import { ShieldCheck, Truck, Zap } from "lucide-react";
+import { ShieldCheck } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -60,6 +60,7 @@ export default function LandingPage() {
         description="We bring expertise and reliability to every job site."
         animationType="slide-up"
         textboxLayout="default"
+        useInvertedBackground={false}
         features={[
             { id: "1", title: "Expert Staff", subtitle: "Trained professionals for efficient removal", category: "Staff", value: "100%" },
             { id: "2", title: "Same Day Service", subtitle: "We arrive when you need us most", category: "Timing", value: "Fast" },

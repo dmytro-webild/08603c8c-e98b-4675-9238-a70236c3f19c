@@ -43,6 +43,7 @@ export default function ContactPage() {
             ]}
             buttonText="Send Message"
             imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=1"
+            useInvertedBackground={false}
           />
           <div className="flex flex-wrap justify-center gap-4 py-8">
             <a href="tel:+16614352054" className="px-6 py-3 bg-primary text-white rounded-full">Call Us: +16614352054</a>

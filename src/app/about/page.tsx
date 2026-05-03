@@ -4,7 +4,7 @@ import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
-import FooterMedia from '@/components/sections/footer/FooterMedia';
+import FooterCard from '@/components/sections/footer/FooterCard';
 import { ShieldCheck } from "lucide-react";
 
 export default function AboutPage() {
@@ -43,11 +43,8 @@ export default function AboutPage() {
           />
         </div>
         <div id="footer" data-section="footer">
-          <FooterMedia
+          <FooterCard
             logoText="Rayo Junk Removal"
-            columns={[
-              { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
-            ]}
           />
         </div>
       </ReactLenis>

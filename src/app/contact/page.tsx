@@ -37,6 +37,7 @@ export default function ContactPage() {
           <ContactText
             text="Reach out to us directly for professional junk removal assistance. We're here to help!"
             background={{ variant: "plain" }}
+            useInvertedBackground={false}
             buttons={[
               { text: "TikTok Profile", href: "https://tiktok.com/@rayojunk" },
               { text: "Google Maps", href: "https://maps.google.com" },

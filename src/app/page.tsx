@@ -25,7 +25,6 @@ export default function LandingPage() {
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarStyleApple
-      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777767116495-2pg8w6ua.png"
       navItems={[
         { name: "Services", id: "/services" },
         { name: "Reviews", id: "/reviews" },
@@ -38,20 +37,17 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroSplitTestimonial
-      background={{ variant: "radial-gradient" }}
       title="Reclaim Your Space Today with Professional Junk Removal"
       description="Fast. Professional. Fair-Priced. Rayo Junk Removal delivers white-glove junk hauling, demolition, cleanouts, and same-day service with unmatched customer care."
       testimonials={[
         {
           name: "Sarah J.", handle: "@sarahj", testimonial: "The best junk removal experience ever. They were lightning fast and incredibly professional.", rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=1", imageAlt: "professional junk removal service cinematic"},
+          imageSrc: "http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=1"},
         {
           name: "Michael R.", handle: "@miker", testimonial: "Rayo Junk undercuts every competitor in price while delivering superior luxury-level service.", rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=1", imageAlt: "professional junk removal service cinematic"},
+          imageSrc: "http://img.b2bpic.net/free-photo/snarling-angry-man_1154-81.jpg?_wi=1"},
       ]}
-      buttons={[{ text: "Get a Free Estimate", onClick: () => { window.location.href = "tel:+16614352054"; } }]}
       imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=2"
-      imageAlt="professional junk removal service cinematic"
       mediaAnimation="slide-up"
     />
   </div>

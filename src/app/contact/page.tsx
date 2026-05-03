@@ -23,7 +23,6 @@ export default function ContactPage() {
       <ReactLenis root>
         <div id="nav" data-section="nav">
           <NavbarStyleApple
-            logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777767116495-2pg8w6ua.png"
             navItems={[
               { name: "Home", id: "/" },
               { name: "Services", id: "/services" },
@@ -46,11 +45,6 @@ export default function ContactPage() {
             imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=1"
             useInvertedBackground={false}
           />
-          <div className="flex flex-wrap justify-center gap-4 py-8">
-            <a href="tel:+16614352054" className="px-6 py-3 bg-primary text-white rounded-full">Call Us: +16614352054</a>
-            <a href="https://www.google.com/maps/search/Rayo+Junk+Removal" target="_blank" className="px-6 py-3 border rounded-full">View Location</a>
-            <a href="https://www.tiktok.com/@rayojunkremoval" target="_blank" className="px-6 py-3 border rounded-full">TikTok Profile</a>
-          </div>
         </div>
         <div id="footer" data-section="footer">
           <FooterMedia

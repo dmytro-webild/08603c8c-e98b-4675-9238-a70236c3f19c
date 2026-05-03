@@ -44,12 +44,12 @@ export default function LandingPage() {
             testimonials={[
               {
                 name: "Sarah J.", handle: "@sarahj", testimonial: "The best junk removal experience ever. They were lightning fast and incredibly professional.", rating: 5,
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777835411136-3sx8ir2j.png"},
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777835411136-3sx8ir2j.png?_wi=1"},
               {
                 name: "Michael R.", handle: "@miker", testimonial: "Rayo Junk undercuts every competitor in price while delivering superior luxury-level service.", rating: 5,
-                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777835411136-3sx8ir2j.png"},
+                imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777835411136-3sx8ir2j.png?_wi=2"},
             ]}
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777835411136-3sx8ir2j.png"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777835411136-3sx8ir2j.png?_wi=3"
             mediaAnimation="slide-up"
           />
         </div>
@@ -71,7 +71,7 @@ export default function LandingPage() {
 
         <div id="footer" data-section="footer">
           <FooterMedia
-            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777835411136-3sx8ir2j.png"
+            imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777835411136-3sx8ir2j.png?_wi=4"
             logoText="Rayo Junk Removal"
             columns={[
               { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }

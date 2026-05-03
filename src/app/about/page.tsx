@@ -3,7 +3,7 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
+import InlineImageSplitTextAbout from '@/components/sections/about/InlineImageSplitTextAbout';
 import FooterMedia from '@/components/sections/footer/FooterMedia';
 import { ShieldCheck } from "lucide-react";
 
@@ -34,20 +34,17 @@ export default function AboutPage() {
           />
         </div>
         <div id="about" data-section="about">
-          <TestimonialAboutCard
-            tag="About Us"
-            tagIcon={ShieldCheck}
-            title="Our Story"
-            description="Founded on the principles of speed, integrity, and white-glove service."
-            subdescription="We've dedicated ourselves to helping our community reclaim their spaces one haul at a time."
-            icon={ShieldCheck}
+          <InlineImageSplitTextAbout
+            heading={[
+              { type: 'text', content: "Our Story" },
+              { type: 'image', src: "https://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=2", alt: "Our team at work" }
+            ]}
             useInvertedBackground={false}
           />
         </div>
         <div id="footer" data-section="footer">
           <FooterMedia
             logoText="Rayo Junk Removal"
-            imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=2"
             columns={[
               { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }
             ]}

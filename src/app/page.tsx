@@ -6,7 +6,8 @@ import FooterMedia from '@/components/sections/footer/FooterMedia';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import { ShieldCheck } from "lucide-react";
+import FeatureCardTwentyEight from '@/components/sections/feature/FeatureCardTwentyEight';
+import { ShieldCheck, Truck, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -51,6 +52,20 @@ export default function LandingPage() {
       imageSrc="http://img.b2bpic.net/free-photo/medium-shot-delivery-people-working_23-2149103417.jpg?_wi=2"
       mediaAnimation="slide-up"
     />
+  </div>
+
+  <div id="features" data-section="features">
+      <FeatureCardTwentyEight
+        title="Why Choose Us"
+        description="We bring expertise and reliability to every job site."
+        animationType="slide-up"
+        textboxLayout="default"
+        features={[
+            { id: "1", title: "Expert Staff", subtitle: "Trained professionals for efficient removal", category: "Staff", value: "100%" },
+            { id: "2", title: "Same Day Service", subtitle: "We arrive when you need us most", category: "Timing", value: "Fast" },
+            { id: "3", title: "Eco-Friendly", subtitle: "Responsible disposal and recycling", category: "Green", value: "Top Tier" }
+        ]}
+      />
   </div>
 
   <div id="about" data-section="about">

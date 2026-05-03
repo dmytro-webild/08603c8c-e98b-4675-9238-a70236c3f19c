@@ -77,14 +77,14 @@ export default function LandingPage() {
       description="We are not just a hauling service; we are your local luxury solution for reclaiming your space. From hot tubs to whole house cleanouts, we bring good vibes, speed, and integrity to every project."
       subdescription="Our owner-led approach ensures direct accountability and white-glove care that the big national chains simply cannot match."
       icon={ShieldCheck}
-      imageSrc="http://img.b2bpic.net/free-photo/modern-office-interior-with-clean-desks_1154-81.jpg?_wi=2"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777767116495-2pg8w6ua.png"
       mediaAnimation="blur-reveal"
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterMedia
-      imageSrc="http://img.b2bpic.net/free-photo/portrait-man-with-scary-clown-make-up-balloons_23-2150915403.jpg?_wi=1"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777835804316-ztk3vi4x.png"
       logoText="Rayo Junk Removal"
       columns={[
           { title: "Links", items: [{ label: "Services", href: "/services" }, { label: "Reviews", href: "/reviews" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] }

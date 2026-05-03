@@ -25,6 +25,7 @@ export default function LandingPage() {
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarStyleApple
+      logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CdXNcTLm7FO6l8ghB2tiBsptcc/uploaded-1777767116495-2pg8w6ua.png"
       navItems={[
         { name: "Services", id: "/services" },
         { name: "Reviews", id: "/reviews" },
